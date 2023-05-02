@@ -96,7 +96,7 @@ var saveAs = _global.saveAs || (
       if (a.origin !== location.origin) {
         corsEnabled(a.href)
           ? download(blob, name, opts)
-          : click(a, a.target = '_blank')
+          : click(a, a.target = '_parent')
       } else {
         click(a)
       }
@@ -119,7 +119,7 @@ var saveAs = _global.saveAs || (
       } else {
         var a = document.createElement('a')
         a.href = blob
-        a.target = '_blank'
+        a.target = '_parent'
         setTimeout(function () { click(a) })
       }
     } else {

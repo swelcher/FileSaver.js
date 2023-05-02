@@ -34,7 +34,7 @@
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
-    "@babel/plugin-transform-modules-umd": "^7.1.0",
+    "@babel/plugin-transform-modules-umd": "^7.18.6",
     "babel-preset-minify": "^0.4.3"
   }
 }
